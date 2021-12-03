@@ -6,7 +6,7 @@ class HttpAuthentication extends StaffAuthenticationBackend {
     static $name = "HTTP Authentication";
     static $id = "passthru";
 
-    function supportsInteractiveAuthentication() {
+    function supportsInteractiveAuthentication() {}
         return false;
     }
 
